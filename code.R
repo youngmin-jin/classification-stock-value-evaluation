@@ -174,7 +174,7 @@ library(Metrics)
 # Results and discussion
 # -----------------------------------------------------------------
 # 1. Result of EDA 
-#   Figure 2. Clustering industry sectors and finding a correlation with core variables
+#   Visualization 1. Clustering industry sectors and finding a correlation with core variables
 # -----------------------------------------------------------------
 library(ggplot2)
 
@@ -218,7 +218,7 @@ fviz_pca_biplot(
 
 
 # -----------------------------------------------------------------
-#   Figure 3. Trends of price variation based on clustered industry sectors
+#   Visualization 2. Trends of stock value variation based on clustered industry sectors
 # -----------------------------------------------------------------
 # group the data according to Figure 2.
 df_figure3 <- df %>% 
@@ -273,7 +273,7 @@ ggplot(df_figure3, aes(Year, median_Price.Var, color = Group)) +
 
 
 # -----------------------------------------------------------------
-#   Figure 4. Proportion of Class variable in each industry sector
+#   Visualization 3. Proportion of Class variable in each industry sector
 # -----------------------------------------------------------------
 # convert Class variable as factor
 # , group the data according to industry sectors and Class variable
@@ -417,18 +417,6 @@ df_model_c_overfitting_cm <- cbind(df_model_c_train[, 1], df_model_c_overfitting
 df_model_c_overfitting_accuracy <- accuracy(df_model_c_overfitting_cm$actual, df_model_c_overfitting_cm$pred)
 df_model_c_overfitting_accuracy
 
-# -----------------------------------------------------------------
-#   Figure 5. Cumulative variance by number of PC
-# -----------------------------------------------------------------
-# visualize the cumulative variance by number of PC
-pr_var <- df_pca_4.2.2$sdev^2
-pr_var <- pr_var/sum(pr_var)
-plot(
-  cumsum(pr_var)
-  , xlab = 'Number of Principal Components'
-  , ylab = 'Cumulative Variance (%)'
-  , type = 'o'
-)
 
 
 
