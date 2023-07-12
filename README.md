@@ -4,3 +4,7 @@
 - Visualized data to find out associations between the industries
 1. Clustering industry sectors and finding a correlation with core variables
    ![classification-stock-value-evaluation1](https://github.com/youngmin-jin/classification-stock-value-evaluation/assets/135728064/7169499c-0e4f-43b2-bba8-c3107eaef6d5)
+2. Trends of stock value variation based on clustered industry sectors
+   ![classification-stock-value-evaluation2](https://github.com/youngmin-jin/classification-stock-value-evaluation/assets/135728064/64da7a4c-eaf9-4394-86a2-a0a339bafc2e)
+3. Proportion of Class variable in each industry sector
+   ![classification-stock-value-evaluation3](https://github.com/youngmin-jin/classification-stock-value-evaluation/assets/135728064/41a15ea9-0350-4d44-b873-eef7d0867fb7)
