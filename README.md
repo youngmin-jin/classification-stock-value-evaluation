@@ -14,6 +14,6 @@ Data was obtained from https://www.kaggle.com/datasets/cnic92/200-financial-indi
 
   ![classification-stock-value-evaluation2](https://github.com/youngmin-jin/classification-stock-value-evaluation/assets/135728064/64da7a4c-eaf9-4394-86a2-a0a339bafc2e)
 
-   e.g., Proportion of Class variable in each industry sector
+   e.g., Proportion of Class variable in each industry sector (class 1: worth to buy the stock/ class 0: not worth to buy the stock)
 
   ![classification-stock-value-evaluation3](https://github.com/youngmin-jin/classification-stock-value-evaluation/assets/135728064/41a15ea9-0350-4d44-b873-eef7d0867fb7)
